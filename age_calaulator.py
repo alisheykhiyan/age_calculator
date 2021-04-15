@@ -26,11 +26,11 @@ else :
     age_year = (year - borning_year) - 1
     age_month = 12 + (month - borning_month)
     #if (day of born =< present day) 
-    if borning_day <= day:
-        age_day = day - borning_day
-    else:
-        age_day =  30 + (day - borning_day)
-        age_month = age_month - 1
+if borning_day <= day:
+    age_day = day - borning_day
+else:
+    age_day =  30 + (day - borning_day)
+    age_month = age_month - 1
 # one by one calculation of date
 age_hour = hour 
 age_minute = minute 
