@@ -37,5 +37,5 @@ age_minute = minute
 age_second = second
 # printing the accurate age
 print (age_year ,'years' ,age_month ,'months' ,age_day ,'days' ,
-                age_hour ,'hours' ,age_minute ,'minutes' ,age_second ,'seconds')
+                age_hour ,'hour' ,age_minute ,'minutes' ,age_second ,'seconds')
 
